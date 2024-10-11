@@ -1,0 +1,442 @@
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+    height: 100px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .ql-toolbar.ql-snow {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .selectPoint > div {
+    min-width: 130px !important;
+  }
+  .selectPoint > div > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 640px) {
+    .ql-snow .ql-editor img {
+      max-width: 4rem !important;
+    }
+  }
+  @media screen and (min-width: 641px) {
+    .ql-snow .ql-editor img {
+      max-width: 7rem !important;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .imageSize > div > div > p > img {
+      max-width: 3rem !important;
+    }
+  }
+  @media screen and (min-width: 641px) {
+    .imageSize > div > div > p > img {
+      max-width: 5rem !important;
+    }
+  }
+  .ql-editing {
+    left: 5px !important;
+    top: -50px !important;
+    margin-top: 0px !important;
+    z-index: 1000;
+  }
+  .imageSize > div > div > p {
+    font-size: 12px;
+  }
+  .ql-editing > input {
+    width: 140px !important;
+  }
+  .ql-container {
+    border: none !important;
+  }
+  .ql-toolbar.ql-snow {
+    border: none !important;
+  }
+  .ql-snow .ql-color-picker {
+    margin-top: 2px;
+  }
+  .optionDiv > div > .ql-toolbar {
+    height: 71px !important;
+    min-height: 71px !important;
+  }
+  .hide-toolbar > .ql-toolbar > .ql-formats {
+    display: none;
+  }
+  @media screen and (max-width: 1024px) {
+    .optionDiv > div > div > .ql-editor {
+      min-height: 16vh !important;
+      line-height: 22px;
+      font-size: 16px !important;
+      margin-top: -29px;
+      width: 99.2%;
+    }
+    .pollOptionDiv > div > div > .ql-editor {
+      height: 17.2vh !important;
+      line-height: 22px;
+      font-size: 15px !important;
+      width: 98.5%;
+      position: relative;
+      top:40px;
+    }
+    .pollOptionDivSmall > div > div > .ql-editor {
+      height: 17.2vh !important;
+      line-height: 22px;
+      font-size: 15px !important;
+      width: 98.5%;
+      position: relative;
+      top:171px;
+    }
+    .TrueFalseOptionDiv > div > div > .ql-editor {
+      min-height: 18vh !important;
+      line-height: 22px;
+      font-size: 24px !important;
+      margin-top: -29px;
+      width: 99.2%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .apply-padding > div > .ql-editor {
+      margin-top: 104px !important;
+    }
+    .apply-paddingPoll > div > .ql-editor {
+      margin-top: 0px !important;
+    }
+  
+    .questionDiv > div > div > .ql-editor {
+      height: 22.7vh !important;
+      width: 98%;
+      padding: 17px 9px !important;
+      line-height: 22px;
+      font-size: 16px !important;
+    }
+    .questionDiv > div > div > .ql-editor:focus {
+      background-color: #07192780;
+      margin-left: 4px;
+      border-radius: 8px;
+    }
+    .optionDiv > div > div > .ql-editor:focus {
+      background-color: #07192780;
+      margin-left: 2px;
+      padding-left: 8px;
+      border-radius: 8px;
+    }
+    .guessAnswerDiv > div > div > .ql-editor {
+      font-size: 18px !important;
+      width: 100%;
+    }
+    .guessAnswerDiv > div > div > .ql-editor:focus {
+      width: 100%;
+    }
+    .guessAnswerDiv > div > div > .ql-editor.ql-blank::before {
+      width: 100%;
+    } 
+  }
+  @media screen and (min-width: 1025px) {
+    .questionDiv > div > div > .ql-editor {
+        height: 23.5vh !important;
+        padding: 17px 9px !important;
+        line-height: 22px;
+        font-size: 16px !important;
+        width: 99.2%;
+      }
+    .optionDiv > div > div > .ql-editor {
+      height: 28vh !important;
+      line-height: 22px;
+      font-size: 15px !important;
+      width: 98.2%;
+    }
+    .pollOptionDiv > div > div > .ql-editor {
+      height: 32.5vh !important;
+      line-height: 22px;
+      font-size: 15px !important;
+      width: 98.2%;
+      position: relative;
+      top: 40px;
+    }
+    .pollOptionDivSmall > div > div > .ql-editor {
+      height: 32.5vh !important;
+      line-height: 22px;
+      font-size: 15px !important;
+      width: 98.2%;
+      position: relative;
+      top: 40px;
+    }
+    .TrueFalseOptionDiv > div > div > .ql-editor {
+      height: 32.7vh !important;
+      line-height: 22px;
+      font-size: 24px !important;
+      width: 99.2%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 36px;
+    }
+    .TrueFalseOptionDiv > div > div > .ql-editor:focus {
+        background-color: #07192780;
+        margin-left: 2px;
+        border-radius: 8px;
+      }
+    .apply-padding > div > .ql-editor {
+      padding-top: 143px !important;
+      margin-top: -31px; 
+    }
+    .apply-paddingPoll > div > .ql-editor {
+      margin-top: 0px !important;
+      padding-top: 143px !important;
+    }
+    .questionDiv > div > div > .ql-editor:focus {
+      background-color: #07192780;
+      margin-left: 4px;
+      border-radius: 8px;
+    }
+    .optionDiv > div > div > .ql-editor:focus {
+      background-color: #07192780;
+      margin-left: 2px;
+      border-radius: 8px;
+    }
+    .guessAnswerDiv > div > div > .ql-editor {
+      font-size: 24px !important;
+      width: 100%;
+    }
+    .guessAnswerDiv > div > div > .ql-editor:focus {
+      width: 100%;
+    }
+    .guessAnswerDiv > div > div > .ql-editor.ql-blank::before {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .explanationDiv > div > div > .ql-editor {
+      height: 54vh !important;
+      line-height: 22px;
+      font-size: 16px !important;
+    }
+    .optionDiv > div > div > .ql-editor.ql-blank::before {
+      left:8px;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    .explanationDiv > div > div > .ql-editor {
+      height: 53vh !important;
+      line-height: 22px;
+      font-size: 16px !important;
+    }
+    .optionDiv > div > div > .ql-editor.ql-blank::before {
+      left:18px;
+    }
+  }
+  .optionDiv > div > div > .ql-editor::-webkit-scrollbar {
+    display: none;
+  }
+  .questionDiv > div > div > .ql-editor::-webkit-scrollbar {
+    display: none;
+  }
+  .explanationDiv > div > div > .ql-editor::-webkit-scrollbar {
+    display: none;
+  }
+  .questionDiv > div > div > .ql-editor::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .mq-focused {
+    outline: 0px solid #ccc !important;
+  }
+  .mq-root-block,
+  .mq-math-mode .mq-root-block {
+    padding: 10px 2px !important;
+  }
+  @media screen and (min-width: 640px) {
+    .custom-formula-blot:hover {
+      border: 2px dotted #cbc6c6;
+      border-radius: 8px;
+    }
+    .custom-formula-blot:focus {
+      border: 2px dotted #cbc6c6;
+      border-radius: 8px;
+    }
+  }
+  .selectPoint > div {
+    min-width: 115px !important;
+    height: 30px !important;
+  }
+  .selectPoint > div > button {
+    font-size: 12px !important;
+    border-radius: 3px !important;
+    border: 1px solid #212121 !important;
+    position: relative;
+    z-index: 50;
+    background-color: white;
+  }
+  .selectPoint > div > label {
+    line-height: 42px !important;
+    border-radius: 3px !important;
+  }
+  .selectQuestionType > div {
+    min-width: 160px !important;
+    height: 30px !important;
+  }
+  .selectQuestionType > div > button {
+    font-size: 12px !important;
+    border-radius: 3px !important;
+    border: 1px solid #212121 !important;
+    position: relative;
+    z-index: 50;
+    background-color: white;
+  }
+  .selectQuestionType > div > label {
+    line-height: 42px !important;
+    border-radius: 3px !important;
+  }  
+  .quill > .ql-container > .ql-editor.ql-blank::before {
+    color: white !important;
+    font-style: normal !important;
+  }
+  .ql-toolbar .ql-stroke {
+    fill: none !important;
+    stroke: #fff !important;
+  }
+  
+  .ql-toolbar .ql-fill {
+    fill: #fff !important;
+    stroke: none !important;
+  }
+  
+  .ql-toolbar .ql-picker {
+    color: #fff !important;
+  }
+  .ql-toolbar .ql-picker {
+    color: #fff !important;
+  }
+  .ql-snow .ql-picker.ql-expanded .ql-picker-options {
+    z-index: 900 !important;
+  }
+  
+  .explanationDiv > div > div > .ql-editor:focus {
+    background-color: #090909 !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+  }
+  .inputRadioOptions  input[type="radio"] {
+    appearance: none;
+    width: 21px;
+    height: 21px;
+    content: none;
+    outline: none;
+    border-radius: 50%;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: grey;
+  }
+  
+  .inputRadioOptions  input[type="radio"]:checked {
+    appearance: none;
+    outline: none;
+    padding: 0;
+    content: none;
+    border: none;
+  }
+  .inputRadioOptions  input[type="radio"]::before {
+    position: absolute;
+    background-color: #09090999;
+    color: #ffffff80;
+    content: "\00A0\2713\00A0";
+    font-weight: bolder;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+  }
+  .inputRadioOptions input[type="radio"]:checked::before {
+    position: absolute;
+    background-color: green !important;
+    color: white !important;
+    content: "\00A0\2713\00A0" !important;
+    font-weight: bolder;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .zoom-animation {
+    animation: zoomInOut 1s infinite;
+  }
+  
+  [data-rmiz] {
+    width: 100%;
+  }
+  .inputRadioOptions  input[type="checkbox"] {
+    appearance: none;
+    width: 21px;
+    height: 21px;
+    content: none;
+    outline: none;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: grey;
+  }
+  
+  .inputRadioOptions input[type="checkbox"]:checked {
+    appearance: none;
+    outline: none;
+    padding: 0;
+    content: none;
+    border: none;
+  }
+  .inputRadioOptions input[type="checkbox"]::before {
+    position: absolute;
+    background-color: #09090999;
+    color: #ffffff80;
+    content: "\00A0\2713\00A0";
+    font-weight: bolder;
+    width: 21px;
+    height: 21px;
+  }
+  .inputRadioOptions input[type="checkbox"]:checked::before {
+    position: absolute;
+    background-color: green !important;
+    color: white !important;
+    content: "\00A0\2713\00A0" !important;
+    font-weight: bolder;
+    width: 21px;
+    height: 21px;
+  }
+  .selectSubject > div > ul{
+    max-height: 200px;
+  }
+  .filterDataSelect > div {
+    min-width: 160px !important;
+    height: 30px !important;
+  }
+  .filterDataSelect > div > button {
+    font-size: 12px !important;
+    border-radius: 3px !important;
+    border: 1px solid #B0BEC5 !important;
+    position: relative;
+    z-index: 50;
+    background-color: white;
+  }
+  .filterDataSelect > div > label {
+    line-height: 42px !important;
+    border-radius: 3px !important;
+  }  
+.quizListData > div{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
